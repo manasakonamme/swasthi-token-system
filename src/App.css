@@ -1,42 +1,121 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f5f6f8;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  width:380px;
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  text-align:center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.top-box{
+  background:#e6edff;
+  padding:25px;
+  border-radius:12px;
+  margin-bottom:30px;
 }
 
-.card {
-  padding: 2em;
+.top-box p{
+  color:#2f5bea;
+  font-weight:600;
+  margin:10px 0 0;
 }
 
-.read-the-docs {
-  color: #888;
+.icon{
+  font-size:28px;
+}
+
+.title{
+  margin:10px 0;
+}
+
+.subtitle{
+  color:#666;
+  font-size:14px;
+  margin-bottom:30px;
+}
+
+.label{
+  font-weight:600;
+  font-size:12px;
+  display:block;
+  text-align:left;
+  margin-bottom:8px;
+}
+
+.input{
+  width:100%;
+  padding:12px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  margin-bottom:20px;
+}
+
+.info{
+  background:#e8f0ff;
+  padding:12px;
+  border-radius:8px;
+  font-size:12px;
+  margin-bottom:20px;
+}
+
+.btn{
+  width:100%;
+  padding:14px;
+  background:#2f5bea;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.btn:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+}
+
+.confirm{
+  background:#e9eefc;
+}
+
+.success{
+  margin-top:10px;
+}
+
+.token-box{
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  margin:20px 0;
+}
+
+.token-box h1{
+  font-size:60px;
+  color:#2f5bea;
+  margin:10px 0 0;
+}
+
+.name-card{
+  background:linear-gradient(135deg,#0f2a6c,#1f4ed8);
+  color:white;
+  padding:25px;
+  border-radius:12px;
+  margin:20px 0;
+}
+
+.doctor{
+  margin-top:20px;
 }
